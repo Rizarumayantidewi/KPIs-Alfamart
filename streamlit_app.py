@@ -5,6 +5,8 @@ import streamlit as st
 # Set halaman
 st.set_page_config(page_title="Alfamart BI Dashboard", page_icon="📊")
 st.title("📊 Alfamart Business Intelligence Dashboard (2021–2024)")
+st.markdown("By: **Riza Rumayanti Dewi** | NIM: 20240130015 | MI24M")
+st.markdown("---")
 
 # Data lengkap dari laporan tahunan
 data = {
