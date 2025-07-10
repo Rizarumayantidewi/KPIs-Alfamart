@@ -4,6 +4,20 @@ import streamlit as st
 
 # Set halaman
 st.set_page_config(page_title="Alfamart BI Dashboard", page_icon="📊")
+
+# Tambahkan logo Alfamart (teks + garis)
+logo_html = """
+<div style="text-align:center;">
+    <h1 style="margin-bottom: 0;">
+        <span style="color:#035AA6;">Alfa</span>
+        <span style="color:#ED1F21; font-style:italic;">mart</span>
+    </h1>
+    <div style="height:6px; width:200px; margin:auto; background:linear-gradient(to right, #ED1F21 50%, #FCD413 50%); border-radius:5px;"></div>
+</div>
+"""
+st.markdown(logo_html, unsafe_allow_html=True)
+
+# Judul dan informasi
 st.title("📊 Alfamart Business Intelligence Dashboard (2021–2024)")
 st.markdown("By: **Riza Rumayanti Dewi** | NIM: 20240130015 | MI24M")
 st.markdown("----")
